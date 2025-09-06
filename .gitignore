@@ -1,0 +1,51 @@
+# Xcode & Swift
+.DS_Store
+*.swpm
+*.xcworkspace
+.xcodebuild
+*.xcodeproj  # Explicitly ignored (as per your request)
+*.xcuserstate
+*.xcuserdatad
+*.pbxproj
+*.xcodeproj/
+
+# Build & Derived Data
+build/
+DerivedData/
+*.o
+*.a
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+.checkouts/
+.packages/
+Package.resolved
+*.xcodeproj  # Redundant, but ensures no accidental commits
+
+# Debug & Logs
+*.log
+*.ipa
+*.dSYM.zip
+
+# App-specific
+*.app
+*.appex
+*.ipa
+*.entitlements
+
+# Local development configs
+.env
+.env.local
+secrets.*
+
+# SwiftLint (if used)
+.swiftlint.yml
+
+# For Swift Playgrounds
+*.playground/
+
+# Misc
+*.backup
+*.orig
+*.rej
