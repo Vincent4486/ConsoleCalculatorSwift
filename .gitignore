@@ -49,3 +49,7 @@ secrets.*
 *.backup
 *.orig
 *.rej
+
+.build/
+.swift-version
+.swift-tools-version
